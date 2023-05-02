@@ -1,26 +1,28 @@
 {
   "name": "seniordev-taks-repo",
   "version": "1.0.0",
-  "description": "senior developer test repo",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnsschoenberg4130/seniordev-taks-repo.git"
   },
   "keywords": [],
-  "author": "Sam Schoenberg",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/johnsschoenberg4130/seniordev-taks-repo/issues"
   },
   "homepage": "https://github.com/johnsschoenberg4130/seniordev-taks-repo#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
+  "devDependencies": {
     "express": "^4.18.2",
-    "loadash": "^1.0.0",
-    "uuid": "^9.0.0"
+    "install": "^0.13.0",
+    "npm": "^9.6.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }
